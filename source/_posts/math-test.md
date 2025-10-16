@@ -9,3 +9,7 @@ mathjax: true
 ---
 
 $E=mc^2$.
+
+<iframe src="/pages/test_page.html" width="200" height="150" frameborder="1"></iframe>
+
+end of page.

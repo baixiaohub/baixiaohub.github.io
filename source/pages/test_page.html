@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+</head>
+<body>
+    <h2>Canvas Test</h2>
+    <canvas id="myCanvas" width="100" height="100" style="border: 1px solid #000;"></canvas>
+    <script>
+        // draw circle with canvas
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.beginPath();
+        ctx.arc(50, 50, 40, 0, Math.PI * 2);
+        ctx.fillStyle = 'red';
+        ctx.fill();
+    </script>
+</body>
+</html>
